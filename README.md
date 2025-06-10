@@ -27,3 +27,10 @@ This is a Clojure-based URL shortening service consisting of a REST API server a
 - [Leiningen](https://leiningen.org/) (Clojure build tool)
 - Java 8 or higher
 - Clojure 1.11.1
+  
+# Dependencies
+org.clojure/clojure: Core Clojure library
+compojure: Routing for the server
+ring/ring-defaults, ring/ring-json: Middleware for HTTP handling
+cheshire: JSON encoding/decoding
+clj-http: HTTP client for the client application
