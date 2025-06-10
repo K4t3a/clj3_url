@@ -16,7 +16,7 @@ This is a Clojure-based URL shortening service consisting of a REST API server a
   - Validates URLs to ensure they start with `http://` or `https://` and contain a valid domain.
 - **Client**:
   - Command-line interface with a menu:
-    - 1. Create: Shorten a new URL.
+    - '1'. Create: Shorten a new URL.
     - 2. Show: Retrieve the full URL for a short code.
     - 3. Update: Change the full URL for an existing short code.
     - 4. Delete: Remove a shortened URL.
