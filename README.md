@@ -17,10 +17,10 @@ This is a Clojure-based URL shortening service consisting of a REST API server a
 - **Client**:
   - Command-line interface with a menu:
     - '1'. Create: Shorten a new URL.
-    - 2. Show: Retrieve the full URL for a short code.
-    - 3. Update: Change the full URL for an existing short code.
-    - 4. Delete: Remove a shortened URL.
-    - 5. Exit: Close the client.
+    - '2'. Show: Retrieve the full URL for a short code.
+    - '3'. Update: Change the full URL for an existing short code.
+    - '4'. Delete: Remove a shortened URL.
+    - '5'. Exit: Close the client.
   - Communicates with the server via HTTP requests.
 ## Requirements
 
